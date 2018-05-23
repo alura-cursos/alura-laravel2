@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e90262a2-019f-48b2-9d45-65867cecb037" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/principal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/principal.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Produto.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Produto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/produto/formulario.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/produto/formulario.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/produto/listagem.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/produto/listagem.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Produto.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Produto.php">
+      <file leaf-file-name="listagem.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/produto/listagem.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="85" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+            <state relative-caret-position="150">
+              <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -39,20 +41,11 @@
       <file leaf-file-name="ProdutoController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="480">
+              <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
               <folding>
-                <element signature="e#44#86#0#PHP" expanded="true" />
+                <element signature="e#44#66#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="principal.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layout/principal.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -60,26 +53,26 @@
       <file leaf-file-name="formulario.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/produto/formulario.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="582">
+              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProdutosRequest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Requests/ProdutosRequest.php">
+      <file leaf-file-name="Produto.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Produto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="240">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listagem.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/produto/listagem.blade.php">
+      <file leaf-file-name="Categoria.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Categoria.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="120">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -112,14 +105,17 @@
         <option value="$PROJECT_DIR$/public/css/custom.css" />
         <option value="$PROJECT_DIR$/resources/views/produto/adicionado.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_05_23_042650_adiciona_tamanho_no_produto.php" />
-        <option value="$PROJECT_DIR$/resources/views/produto/listagem.blade.php" />
-        <option value="$PROJECT_DIR$/app/Produto.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_05_23_043910_adiciona_tamanho_no_produto.php" />
-        <option value="$PROJECT_DIR$/resources/views/produto/formulario.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/ProdutosRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/principal.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_05_23_054432_create_categorias_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php" />
+        <option value="$PROJECT_DIR$/resources/views/produto/formulario.blade.php" />
+        <option value="$PROJECT_DIR$/app/Categoria.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_05_23_055608_adiciona_relacionamento_produto_categoria.php" />
+        <option value="$PROJECT_DIR$/app/Produto.php" />
+        <option value="$PROJECT_DIR$/resources/views/produto/listagem.blade.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
       </list>
     </option>
@@ -235,6 +231,13 @@
               <item name="estoque" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estoque" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Requests" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -321,30 +324,30 @@
       <option name="presentableId" value="Default" />
       <updated>1527014302602</updated>
       <workItem from="1527014303853" duration="1487000" />
-      <workItem from="1527019697011" duration="16109000" />
+      <workItem from="1527019697011" duration="17815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17596000" />
+    <option name="totallyTimeSpent" value="19302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="-4" width="1315" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1946768" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,7 +376,7 @@
         <state relative-caret-position="135">
           <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding>
-            <element signature="e#44#86#0#PHP" expanded="true" />
+            <element signature="e#44#66#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -436,31 +439,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/produto/listagem.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_05_23_043910_adiciona_tamanho_no_produto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Produto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="85" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/produto/formulario.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
@@ -485,12 +467,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_05_23_054432_create_categorias_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/produto/formulario.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Categoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_05_23_055608_adiciona_relacionamento_produto_categoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Produto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/produto/listagem.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="480">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
           <folding>
-            <element signature="e#44#86#0#PHP" expanded="true" />
+            <element signature="e#44#66#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

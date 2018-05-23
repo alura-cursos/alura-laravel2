@@ -2,6 +2,7 @@
 
 namespace estoque\Http\Controllers;
 
+use estoque\Categoria;
 use estoque\Http\Requests\ProdutosRequest;
 use estoque\Produto;
 use Illuminate\Support\Facades\DB;
@@ -29,7 +30,7 @@ class ProdutoController extends Controller
     }
 
     public function novo(){
-        return view('produto.formulario');
+        return view('produto.formulario')->with('categorias', Categoria::all());
     }
 
     public function adiciona(ProdutosRequest $request){
