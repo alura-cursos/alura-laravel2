@@ -23,6 +23,10 @@
                    name="quantidade" class="form-control"/>
         </div>
         <div class="form-group">
+            <label>Tamanho</label>
+            <input name="tamanho" class="form-control"/>
+        </div>
+        <div class="form-group">
             <label>Descricao</label>
             <input name="descricao" class="form-control"/>
         </div>
