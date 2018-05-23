@@ -10,6 +10,11 @@ use Illuminate\Support\Facades\Request;
 class ProdutoController extends Controller
 {
 
+    public function __construct()
+    {
+        $this->middleware('auth', ['only' => ['adiciona', 'remove']]);
+    }
+
     public function lista(){
         $produtos = Produto::all();
         return view('produto.listagem')->with('produtos', $produtos);
